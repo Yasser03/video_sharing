@@ -5,7 +5,7 @@ import base64
 def main():
     # st.title('Video Viewer')
 
-    video_file_path = r"C:\Users\pc\Documents\GitHub\video_sharing\videoplayback.webm"
+    video_file_path = "video_sharing\videoplayback.webm"
 
     if video_file_path and os.path.isfile(video_file_path) and video_file_path.lower().endswith((".mp4", ".mov", ".avi", ".mkv", ".webm")):
         with open(video_file_path, "rb") as file:
